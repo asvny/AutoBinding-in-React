@@ -56,9 +56,6 @@ class Button extends React.Component{
 #### Method 4 - Fat arrows  
 ```js
 class Button extends React.Component{
-    constructor(){
-    this.handler = this.handler.bind(this) 
-    }
     handler = ()=>{
      ...
     }
